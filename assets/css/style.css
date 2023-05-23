@@ -1318,10 +1318,29 @@ p {
   padding-top: 3px;
 }
 
+.main-menu{
+  padding: 30px 0;
+}
+
 .main-menu ul li {
   display: inline-block;
   position: relative;
+  margin: 0 16px;
 }
+
+.straightLine{
+  padding: 5px 0.5px;
+  background-color: #EDEEF3;
+  margin-right: 10px;
+}
+
+.signup{
+  border: 1px solid #EDEEF3;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
 .main-menu ul li:not(:first-child) {
   margin-left: 40px;
 }
@@ -1340,7 +1359,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   color: #0e1133;
-  padding: 35px 0;
+  /* padding: 35px 0; */
   text-transform: capitalize;
 }
 .main-menu ul li.has-dropdown > a {
