@@ -818,6 +818,11 @@ p {
   padding-left: 245px;
   padding-right: 245px;
 }
+
+.logoImg{
+  width: 50%;
+}
+
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
   .header__padding {
     padding-left: 70px;
@@ -845,15 +850,24 @@ p {
   .header__padding {
     padding: 20px;
   }
+  .logoImg{
+    width: 90%;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header__padding {
     padding: 20px;
   }
+  .logoImg{
+    width: 90%;
+  }
 }
 @media (max-width: 575px) {
   .header__padding {
     padding: 20px;
+  }
+  .logoImg{
+    width: 90%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1339,6 +1353,12 @@ p {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 3px;
+}
+
+@media screen and (max-width:1199px) {
+  .signup{
+    all: unset;
+  }
 }
 
 .main-menu ul li:not(:first-child) {
